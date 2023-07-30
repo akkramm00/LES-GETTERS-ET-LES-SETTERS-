@@ -22,6 +22,15 @@ class Personne {
   }
 }
 
+// Dans cet exemple , la méthode getNom() permet d'obtenir la valeur de la propriété $nom. Nous pouvons également utiliser un mutatteur pour modifier la valeur de cette propriété, de cette fonçon :
+
+class Personne {
+  private String $nom;
+  public function setNom(String $nom) {
+    $this->nom =$nom;
+  }
+}
+
 ?> 
 
 </html>
